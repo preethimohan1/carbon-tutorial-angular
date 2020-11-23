@@ -7,6 +7,7 @@ import { UserAvatar20Module } from '@carbon/icons-angular/lib/user--avatar/20';
 import { AppSwitcher20Module } from '@carbon/icons-angular/lib/app-switcher/20';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+declarations: [HeaderComponent];
 
 describe('AppComponent', () => {
 	beforeEach(async(() => {
